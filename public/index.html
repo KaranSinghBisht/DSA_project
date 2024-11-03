@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked List Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Linked List Visualization</h1>
+    <div class="container">
+        <div class="input-group">
+            <input type="number" id="dataInput" placeholder="Enter data">
+            <input type="number" id="positionInput" placeholder="Enter position">
+        </div>
+        <button onclick="insertAtFirst()">Insert at First</button>
+        <button onclick="insertAtMiddle()">Insert at Middle</button>
+        <button onclick="deleteAtFirst()">Delete at First</button>
+        <button onclick="deleteAtMiddle()">Delete at Middle</button>
+        <button onclick="displayList()">Display List</button>
+        <div id="listDisplay">NULL</div>
+    </div>
+    <script src="linked_list.js"></script>
+</body>
+
+</html>
